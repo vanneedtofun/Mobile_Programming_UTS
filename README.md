@@ -1,17 +1,19 @@
-# game_uts
+# Game Library API
 
-A new Flutter project.
+## Deskripsi Singkat
+Aplikasi mobile berbasis Flutter yang menampilkan daftar game gratis untuk platform PC dan Browser dengan mengambil data secara dinamis dari FreeToGame API.
 
-## Getting Started
+## Fitur Utama
+- Menampilkan daftar game gratis (Thumbnail, Judul, Genre, Platform).
+- Menangani status pemuatan data (Loading, Success, Error) menggunakan Asynchronous Programming.
+- Fitur memuat ulang data (Refresh) secara manual.
 
-This project is a starting point for a Flutter application.
+## Teknologi & Package
+- SDK: Flutter & Dart
+- Package Tambahan: `http` (menangani permintaan HTTP ke REST API).
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Langkah Menjalankan Aplikasi
+1. Clone repositori ini ke komputer lokal.
+2. Buka terminal di dalam folder project dan jalankan perintah: `flutter pub get`
+3. Jalankan emulator Android atau hubungkan perangkat fisik.
+4. Eksekusi perintah: `flutter run`
